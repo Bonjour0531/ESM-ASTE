@@ -1,4 +1,4 @@
-Code and sample data accompanying the paper **An End-to-End Span-based Method for Aspect Sentiment Triplet Extraction**
+Code and sample data accompanying the paper **Revisiting Aspect-Sentiment-Opinion Triplet Extraction: Detailed Analyses towards a Simple and Effective Span-based Model**
 
 ### Instruction 
 
