@@ -1,0 +1,3 @@
+Boot time is super fast, around anywhere from 35 seconds to 1 minute.####Boot=T-POS time=T-POS is=O super=O fast=O ,=O around=O anywhere=O from=O 35=O seconds=O to=O 1=O minute=O .=O
+tech support would not fix the problem unless I bought your plan for $150 plus.####tech=T-NEG support=T-NEG would=O not=O fix=O the=O problem=O unless=O I=O bought=O your=O plan=O for=O $=O 150=O plus=O .=O
+but in resume this computer rocks!####but=O in=O resume=O this=O computer=O rocks=O !=O

@@ -1,0 +1,1 @@
+{"entities": {"aspect": {"short": "aspect", "verbose": "aspect"}, "opinion": {"short": "opinion", "verbose": "opinion"}}, "relations": {"POS": {"short": "POS", "verbose": "Positive", "symmetric": false}, "NEG": {"short": "NEG", "verbose": "Negative", "symmetric": false}, "NEU": {"short": "NEU", "verbose": "Neutral", "symmetric": false}}}

@@ -33,9 +33,7 @@ python -m absa.run_aspect_opinion_extract \
 
 ### Requirements
 
-- Python 3.5+
-- PyTorch 1.1.0+ (tested with version 1.3.1)
-- transformers 2.2.0+ (tested with version 2.2.0)
-- scikit-learn (tested with version 0.21.3)
-- tqdm (tested with version 4.19.5)
-- numpy (tested with version 1.17.4)
+- Python 3.6.12
+- PyTorch 1.6.0
+- transformers 4.12.5
+- scikit-learn 0.24.0

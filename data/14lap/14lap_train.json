@@ -1,0 +1,1 @@
+[{"tokens": ["i", "charge", "it", "at", "night", "and", "skip", "taking", "the", "cord", "with", "me", "because", "of", "the", "good", "battery", "life", "."], "entities": [{"type": "aspect", "start": 16, "end": 17}, {"type": "opinion", "start": 15, "end": 15}], "relations": [{"type": "POS", "head": 0, "tail": 1}], "orig_id": 0}]
