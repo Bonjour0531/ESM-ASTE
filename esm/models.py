@@ -22,7 +22,7 @@ def get_token(h: torch.tensor, x: torch.tensor, token: int):
 
 
 class ESM(BertPreTrainedModel):
-    """ Span-based esm to jointly extract terms and sentiment polarity """
+    """ Span-based esm to jointly extract terms(entity) and sentiment polarity (relation) """
     VERSION = '1.0'
 
     def __init__(self, config: BertConfig, cls_token: int, relation_types: int, entity_types: int,
@@ -139,13 +139,6 @@ class ESM(BertPreTrainedModel):
         entity_spans_pool = entity_spans_pool.mean(dim=2)
         '''
 
-        '''
-        # span: [start:end]
-        m = entity_masks.unsqueeze(-1)
-        entity_spans_pool = m * h.unsqueeze(1).repeat(1, entity_masks.shape[1], 1, 1)
-        for i in range(entity_spans_pool.shape[0]):
-            for j in range(entity_spans_pool.shape[1]):
-        '''
 
         # get cls token as candidate context representation
         entity_ctx = get_token(h, encodings, self._cls_token)
